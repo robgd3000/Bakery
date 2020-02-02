@@ -73,3 +73,64 @@ nav {
     width: 15rem;
     display: inline-block
 }
+.cakes {
+    background-color: darkcyan;
+    text-align: center;
+}
+.options {
+    display: inline-block;
+}
+.testimonial {
+    background-color: darkgrey;
+    text-align: center;
+}
+.news {
+    background-color: darkkhaki;
+    text-align: center;
+}
+.month {
+    background-color: gold;
+    display: inline-block;
+}
+.message {
+    background-color: indianred;
+    text-align: center;
+}
+textarea {
+    display: block;
+    width:35rem;
+    margin: 0rem 33%;
+}
+.location {
+    background-color: lightblue;
+}
+.info {
+    background-color: lightseagreen;
+    width: 30rem;
+}
+.info img {
+    display: inline-block;
+}
+.infotext {
+    display: inline-block;
+}
+.address a {
+    background-color: mediumblue;
+}
+.address {
+    background-color: lightyellow;
+    width: 35rem;
+    display: inline-block;
+}
+.map {
+    background-color: mediumorchid;
+    width: 32rem;
+    display: inline-block;
+    float: right;
+}
+.map img {
+    width: 30rem;
+}
+.newsletter {
+    text-align: center;
+}
