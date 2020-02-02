@@ -1,0 +1,75 @@
+html {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    padding: 0%;
+    margin: 0%;
+}
+h3,h6 {
+    font-weight: normal;
+}
+header {
+    background-color: plum;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 0%;
+    display: flex
+
+}
+.logotext {
+    background-color: powderblue;
+    margin: 0px;
+    padding-top: 1.5rem;
+}
+.logotext span {
+    font-weight: bold!important;
+}
+.logotext h3, .logotext h6 {
+    margin: 0px;
+}
+nav {
+    background-color: yellowgreen;
+    padding: 1.5rem 0px;
+}
+.topnav {
+    display: inline;
+    padding: 0px 1rem;
+}
+.goodlife {
+    background-color:yellowgreen;
+    width: 1920;
+    height: 1000;
+    text-align: center;
+    padding: 2rem 16rem;
+}
+.goodlife img {
+    height: 5rem;
+}
+.button {
+    background-color: yellow;
+    width: 5rem;
+    height: 2rem;
+    padding-top: .5rem;
+    margin: 1rem;
+    display: inline-block;
+}
+.offers {
+    text-align: center;
+    background-color: crimson;
+}
+.cupon {
+    background-color: coral;
+    display: inline-block;
+}
+.welcome {
+    background-color: blueviolet;
+}
+.shipping {
+    background-color: cyan;
+    width: 15rem;
+    display: inline-block
+}
