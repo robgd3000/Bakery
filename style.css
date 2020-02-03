@@ -375,3 +375,74 @@ footer {
 .foot-nav a {
     color: black;
 }
+
+/* media queries */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      img {
+          height: 100%;
+          width: auto;
+      }
+      body {
+          font-size: 10px;
+          width: 100%;
+          text-align: center;
+      }
+      .goodlife {
+        width: 68rem
+        }
+      header {
+          width: 100rem;
+      }
+      h1 {
+        ;
+      }
+      .cupon {
+          display: block;
+          width: 40rem;
+          margin-left: 26rem;
+      }
+      .welcome {
+          margin-left: 18rem;
+      }
+      .shipping {
+          display: block;
+          border-right: none;
+          margin-left: 40rem;
+      }
+      .ad {
+          margin-left: 18rem;
+      }
+      .cakes {
+          width: 100rem;
+      }
+      .testimonial {
+          width: 90rem;
+          margin-left: 4rem;
+      }
+      .news {
+          width: 50rem;
+          margin-left: 24rem;
+      }
+      .message {
+          width: 100rem;
+      }
+      .location {
+          width: 100rem;
+      }
+      .newsletter {
+          width: 100rem;
+      }
+      .owner {
+          width: 100rem;
+      }
+      .contact {
+          width: 100rem;
+      }
+      footer {
+          width: 100rem;
+      }
+  }
