@@ -315,3 +315,63 @@ textarea {
     margin-top: .5rem;
     color: black
 }
+.owner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    background-color: burlywood;
+    width: 40rem;
+    display: inline-block;
+    padding: 0rem 2rem;
+}
+.owner h6 {
+    color: black
+}
+.owner h6 span {
+    color: green;
+}
+.cupcake {
+    display: inline-block;
+    margin-top: 0rem;
+}
+.cupcake img {
+    width: 40rem;
+}
+.bottom {
+   background-color: white;
+    width: 20rem;
+    height: 40rem;
+    margin: 1rem 2rem;
+    text-align: center;
+}
+.bottom h3 {
+    color:black;
+}
+.bottom h6 {
+    color: black;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/pic/bkg-cutting-board.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid black;
+}
+.c {
+    display: inline-block;
+    color: black;
+}
+.foot-nav {
+    display: inline;
+}
+.foot-nav a {
+    color: black;
+}
