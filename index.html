@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Amalie's Bakery</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -35,12 +36,12 @@
     <section class="offers">
         <div class="cupon">
             <h4>Up to 15% Off!</h4>
-            <h3>June Special Offer</h3>
+            <h3><span>June</span> Special Offer</h3>
             <h6>Only Cookies, Cakes, Pastries, and Breads</h6>
         </div>
         <div class="cupon">
             <h4>Are You Here?</h4>
-            <h3>Sign Up And Get 20% Off!</h3>
+            <h3><span>Sign Up</span> And Get 20% Off!</h3>
             <h6>Plus 20$ Off For New Members, Sign Up Now!</h6>
         </div>
         <div class="welcome">
@@ -50,22 +51,25 @@
         </div>
         <div class="shipping">
             <img src="./images/icon/icon-yellow-shipping.png" alt="shipping icon">
-            <h4>FREE SHIPPING WORLDWIDE</h4>
+            <h5>FREE SHIPPING WORLDWIDE</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div class="shipping">
             <img src="./images/icon/icon-yellow-hands.png" alt="hands holding coin icon">
-            <h4>30 DAYS RETURN GUARANTEED</h4>
+            <h5>30 DAYS RETURN GUARANTEED</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="shipping">
+        <div class="shipping" id="quality">
             <img src="./images/icon/icon-yellow-diamond.png" alt="yellow diamond">
-            <h4>100% PREMIUM QUALITY</h4>
+            <h5>100% PREMIUM QUALITY</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
     </section>
     <section class="cakes">
-        <div class="ad"></div>
+        <div class="ad">
+            <h2>Pistachio Cupcake!</h2>
+            <a href="#">SHOP NOW</a>
+        </div>
         <h5>PREMIUM QUALITY</h5>
         <h2>Amalie's Fresh Cakes</h2>
         <figure class="options">
@@ -103,23 +107,25 @@
     <section class="news">
         <h5>AMALIE'S BLOG</h5>
         <h2>Our Latest News</h2>
-        <div class="month">
-           <h2>June</h2>
-           <h5>20/2020</h5> 
-        </div>
-        <div class="month">
-            <h4>The best ecommerce platform for growing sales</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
-            <h5>READ ARTICLE</h5>
-        </div>
-        <div class="month">
-            <h2>July</h2>
-            <h5>20/2020</h5>
-        </div>
-        <div class="month">
-            <h4>Voted bakery of the year in newspaper</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
-            <h5>READ ARTICLE</h5>
+        <div class="calendar">
+            <div class="date">
+                <h2>June</h2>
+                <h5>20/2020</h5> 
+            </div>
+            <div class="month">
+                <h4>The best ecommerce platform for growing sales</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
+                <a href="#">READ ARTICLE</a>
+            </div>
+            <div class="date">
+                <h2>July</h2>
+                <h5>20/2020</h5>
+            </div>
+            <div class="month">
+                <h4>Voted bakery of the year in newspaper</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
+                <a href="#">READ ARTICLE</a>
+            </div>
         </div>
     </section>
     <section class="message">
@@ -129,7 +135,7 @@
             <input type="text" name="name" placeholder="Name" required>
             <input type="email" name="email" placeholder="email" required>
             <input type="number" name="phone" placeholder="Phone Number" required>
-            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <textarea name="message" placeholder="Your Message" rows="8" required></textarea>
             <input type="submit" value="Send Message">
         </form>
     </section>
@@ -159,11 +165,13 @@
                     <h5>Second: mail@amalie.info</h5>
                 </div>
             </div>
-            <a href="#">CONTACT US</a>
+            <div class="contact-us">
+                <a href="#">CONTACT US</a>
+            </div>
         </div>
-        <div class="map">
+        <figure class="map">
             <img src="./images/icon/map.png" alt="map">
-        </div>
+        </figure>
     </section>
     <section class="newsletter">
         <h3>Subscribe Newsletter</h3>
@@ -182,19 +190,15 @@
     </section>
     <section class="contact">
         <div class="bottom">
-
-        </div>
-        <div class="bottom">
             <div class="logo">
                 <img src="./images/icon/icon-logo.png" alt="grain icon">
-            <div class="logotext">
-                <h3><span>Amalie's</span> Bakery</h3>
-                <h6>FRESH BAKERY STORE</h5>
+                <div class="logotext">
+                    <h3><span>Amalie's</span> Bakery</h3>
+                    <h6>FRESH BAKERY STORE</h5>
+                </div>
             </div>
             <h1>____</h1>
             <p>Ut sed probo reque utroque. Has id illum iusto, cu vide paulo viderer sea, ut sit prompta sanctus deserunt. Ea qui tantas quidam delenit. Eam nonumes adipiscing delicatissimi no. An oratio partem accommodare sea.</p>
-
-        </div>
         </div>
         <div class="bottom"></div>
         <div class="bottom"></div>

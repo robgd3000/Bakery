@@ -6,11 +6,32 @@ body {
     padding: 0%;
     margin: 0%;
 }
+h1, h2, h4 {
+    font-family: 'Dancing Script', cursive;
+}
+h1 {
+    font-size: 5.5rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.2rem
+}
+h6 {
+    font-size: 1rem;
+}
 h3,h6 {
     font-weight: normal;
 }
 header {
-    background-color: plum;
+    background-color: black;
     margin-top: 0%;
     display: flex;
     justify-content: space-between;
@@ -21,116 +42,276 @@ header {
 
 }
 .logotext {
-    background-color: powderblue;
     margin: 0px;
     padding-top: 1.5rem;
 }
 .logotext span {
     font-weight: bold!important;
 }
-.logotext h3, .logotext h6 {
+.logotext h3 {
     margin: 0px;
+    color: white
+}
+.logotext h6 {
+    margin: 0px;
+    color: #FBB100;
 }
 nav {
-    background-color: yellowgreen;
     padding: 1.5rem 0px;
 }
 .topnav {
     display: inline;
     padding: 0px 1rem;
 }
+.topnav a {
+    text-decoration: none;
+    color: white;
+}
 .goodlife {
-    background-color:yellowgreen;
+    background-color: black;
     width: 1920;
     height: 1000;
     text-align: center;
     padding: 2rem 16rem;
+    color: white;
 }
 .goodlife img {
     height: 5rem;
 }
 .button {
-    background-color: yellow;
+    background-color: #FBB100;
     width: 5rem;
     height: 2rem;
     padding-top: .5rem;
     margin: 1rem;
     display: inline-block;
 }
+.button a {
+    text-decoration: none;
+    color: black;
+}
 .offers {
     text-align: center;
-    background-color: crimson;
+    background-color: white;
 }
 .cupon {
-    background-color: coral;
+    background-color: black;
     display: inline-block;
+    width: 24rem;
+    height: 16rem;
+    margin: 1rem 2rem;
+    padding: 2rem;
+    color: white;
 }
+/* .cupon span {
+    color: #85A608;
+} */
 .welcome {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    width: 60.5rem;
+    margin: 1rem 17rem;
+    padding-bottom: 5rem;
+}
+.welcome h5 {
+    color: #FBB100;
+    font-weight: bolder;
 }
 .shipping {
-    background-color: cyan;
-    width: 15rem;
-    display: inline-block
+    /* background-color: cyan; */
+    width: 20rem;
+    display: inline-block;
+    padding-top: 1rem;
+    border-right: solid black;
+    margin-bottom: 3rem;
+}
+#quality {
+    border-right: solid white;
 }
 .cakes {
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     text-align: center;
+    padding: 2rem 0rem;
+    background-color: #F4F4F4;
+}
+.cakes h5 {
+    color: #FBB100;
+}
+.ad {
+    background-image: url("./images/pic/postatio-cupcake.jpg");
+    background-size: 65rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60.5rem;
+    height: 30rem;
+    margin: 2rem 16rem;
+    padding-top: 3.5rem;
+    padding-left: 1rem;
+    color: white;
+    text-align: left;
+}
+.ad a {
+    text-decoration: none;
+    color: #FBB100;
 }
 .options {
     display: inline-block;
+    background-color: #EDEDED;
+    height: 3rem;
+    width: 3.5rem;
+    padding-top: .5rem;
+    margin: 0rem 1rem;
+}
+.options h6 {
+    padding: 0px;
+    margin: 0px;
 }
 .testimonial {
     background-color: darkgrey;
     text-align: center;
+    color: white;
+    padding: 2rem 0rem;
+    background-image: url("./images/pic/foodbkg.png");
+    background-size: contain;
+}
+.testimonial h5,h6 {
+    color: #FBB100;
+    margin: 1rem;
 }
 .news {
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
     text-align: center;
+    padding: 2rem 0rem;
+}
+.news h5 {
+    color: #FBB100;
+    margin: 0rem;
+    padding: 0rem;
+}
+.news h2 {
+    margin: 1rem;
+}
+.calendar {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
 }
 .month {
-    background-color: gold;
+    /* background-color: gold; */
     display: inline-block;
+    text-align: left;
+    width: 20rem;
+    margin: 0rem;
+    padding: 0rem 2rem;
+}
+.month h4 {
+    margin-top: .3rem;
+}
+.month a {
+    text-decoration: none;
+    color: #FBB100;
+}
+.date {
+    /* background-color: gold; */
+    display: inline-block;
+    width: 10rem;
+    height: 6rem;
+    border-right: solid black; 
+    color: #DDDDDD;   
+}
+.date h2,h5 {
+    padding: 0rem 1rem;
+    margin: 0rem;
 }
 .message {
-    background-color: indianred;
+    background-color: #F4F4F4;
     text-align: center;
+    padding: 2rem 0rem;
+
+}
+.message h5 {
+    color: #FBB100;
+    margin: 0rem;
+}
+.message h2 {
+    margin-top: 1.5rem;
+}
+.message form {
+    ;
+
 }
 textarea {
     display: block;
     width:35rem;
-    margin: 0rem 33%;
+    margin: 1rem 33%;
 }
 .location {
-    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/pic/bkg-bread.jpg");
+    background-size: contain;
+    color: white;
+    padding: 2rem 0rem;
 }
 .info {
-    background-color: lightseagreen;
-    width: 30rem;
+    /* background-color: lightseagreen; */
+    width: 25rem;
 }
 .info img {
     display: inline-block;
 }
 .infotext {
     display: inline-block;
+    /* background-color: azure; */
+    margin: 0rem 0rem;
 }
 .address a {
-    background-color: mediumblue;
+    text-decoration: none;
+    color: white;
+}
+.contact-us {
+    margin-top: 2rem;
 }
 .address {
-    background-color: lightyellow;
-    width: 35rem;
+    /* background-color: lightyellow; */
+    width: 25rem;
     display: inline-block;
+    margin: 0rem;
+}
+.address h5 {
+    color: #FBB100;
+    margin: 0rem;
+}
+.address h2 {
+    margin: .5rem 0rem;
 }
 .map {
     background-color: mediumorchid;
-    width: 32rem;
+    padding: 0rem;
+    margin: 0rem
     display: inline-block;
-    float: right;
+    /* float: right; */
 }
 .map img {
-    width: 30rem;
+    width: 35rem;
 }
 .newsletter {
     text-align: center;
+    padding-top: 3rem;
+    height: 18rem;
+    background-image: url("./images/pic/lemon-bkg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.newsletter h3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    margin-bottom: .5rem;
+
+}
+.newsletter h6 {
+    margin-top: .5rem;
+    color: black
 }
