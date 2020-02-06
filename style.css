@@ -99,15 +99,11 @@ nav {
     display: inline-block;
     width: 24rem;
     height: 16rem;
-    margin: 1rem 2rem;
+    margin: 3rem 2rem;
     padding: 2rem;
     color: white;
 }
-/* .cupon span {
-    color: #85A608;
-} */
 .welcome {
-    /* background-color: blueviolet; */
     width: 60.5rem;
     margin: 1rem 17rem;
     padding-bottom: 5rem;
@@ -117,7 +113,6 @@ nav {
     font-weight: bolder;
 }
 .shipping {
-    /* background-color: cyan; */
     width: 20rem;
     display: inline-block;
     padding-top: 1rem;
@@ -128,7 +123,6 @@ nav {
     border-right: solid white;
 }
 .cakes {
-    /* background-color: darkcyan; */
     text-align: center;
     padding: 2rem 0rem;
     background-color: #F4F4F4;
@@ -178,7 +172,6 @@ nav {
     margin: 1rem;
 }
 .news {
-    /* background-color: darkkhaki; */
     text-align: center;
     padding: 2rem 0rem;
 }
@@ -191,12 +184,10 @@ nav {
     margin: 1rem;
 }
 .calendar {
-    /* background-color: green; */
     display: flex;
     justify-content: center;
 }
 .month {
-    /* background-color: gold; */
     display: inline-block;
     text-align: left;
     width: 20rem;
@@ -211,7 +202,6 @@ nav {
     color: #FBB100;
 }
 .date {
-    /* background-color: gold; */
     display: inline-block;
     width: 10rem;
     height: 6rem;
@@ -235,10 +225,6 @@ nav {
 .message h2 {
     margin-top: 1.5rem;
 }
-.message form {
-    ;
-
-}
 textarea {
     display: block;
     width:35rem;
@@ -254,7 +240,6 @@ textarea {
     padding: 2rem 0rem;
 }
 .info {
-    /* background-color: lightseagreen; */
     width: 25rem;
 }
 .info img {
@@ -262,7 +247,6 @@ textarea {
 }
 .infotext {
     display: inline-block;
-    /* background-color: azure; */
     margin: 0rem 0rem;
 }
 .address a {
@@ -273,7 +257,6 @@ textarea {
     margin-top: 2rem;
 }
 .address {
-    /* background-color: lightyellow; */
     width: 25rem;
     display: inline-block;
     margin: 0rem;
@@ -286,11 +269,9 @@ textarea {
     margin: .5rem 0rem;
 }
 .map {
-    background-color: mediumorchid;
     padding: 0rem;
-    margin: 0rem
+    margin: 0rem;
     display: inline-block;
-    /* float: right; */
 }
 .map img {
     width: 35rem;
@@ -302,14 +283,11 @@ textarea {
     background-image: url("./images/pic/lemon-bkg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
-
 }
 .newsletter h3 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     margin-bottom: .5rem;
-
 }
 .newsletter h6 {
     margin-top: .5rem;
@@ -382,7 +360,14 @@ footer {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-      img {
+          p {
+         font-size: 2.5rem;
+        }
+        h5, h6 {
+            font-size: 2rem;
+        }
+      
+        img {
           height: 100%;
           width: auto;
       }
@@ -396,9 +381,15 @@ footer {
         }
       header {
           width: 100rem;
+          text-align: center;
       }
-      h1 {
-        ;
+     
+      
+      
+      .topnav {
+          display: block;
+          font-size: 3rem;
+          padding: .5rem;
       }
       .cupon {
           display: block;
@@ -442,7 +433,10 @@ footer {
       .contact {
           width: 100rem;
       }
+      .bottom p {
+          visibility: collapse;
+      }
       footer {
           width: 100rem;
       }
-  }
+    }
