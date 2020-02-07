@@ -30,6 +30,10 @@ h6 {
 h3,h6 {
     font-weight: normal;
 }
+
+/* header */
+
+
 header {
     background-color: black;
     margin-top: 0%;
@@ -67,6 +71,10 @@ nav {
     text-decoration: none;
     color: white;
 }
+
+/* goodlife */
+
+
 .goodlife {
     background-color: black;
     width: 1920;
@@ -103,6 +111,10 @@ nav {
     padding: 2rem;
     color: white;
 }
+
+/* welcome */
+
+
 .welcome {
     width: 60.5rem;
     margin: 1rem 17rem;
@@ -119,9 +131,10 @@ nav {
     border-right: solid black;
     margin-bottom: 3rem;
 }
-#quality {
-    border-right: solid white;
-}
+
+/* cakes */
+
+
 .cakes {
     text-align: center;
     padding: 2rem 0rem;
@@ -159,6 +172,10 @@ nav {
     padding: 0px;
     margin: 0px;
 }
+
+/* testimonial */
+
+
 .testimonial {
     background-color: darkgrey;
     text-align: center;
@@ -171,6 +188,10 @@ nav {
     color: #FBB100;
     margin: 1rem;
 }
+
+/* news */
+
+
 .news {
     text-align: center;
     padding: 2rem 0rem;
@@ -212,6 +233,10 @@ nav {
     padding: 0rem 1rem;
     margin: 0rem;
 }
+
+/* message */
+
+
 .message {
     background-color: #F4F4F4;
     text-align: center;
@@ -230,6 +255,10 @@ textarea {
     width:35rem;
     margin: 1rem 33%;
 }
+
+/* location */
+
+
 .location {
     display: flex;
     align-items: center;
@@ -383,7 +412,10 @@ footer {
           width: 100rem;
           text-align: center;
       }
-     
+      .logo img {
+          height: 100px;
+          width: auto;
+      }
       
       
       .topnav {
@@ -462,6 +494,12 @@ footer {
       .location {
           width: 100rem;
       }
+      .map img {
+          display: block;
+          width: 70rem;
+          margin-left: 1rem;
+
+      }
       .newsletter {
           width: 100rem;
       }
@@ -472,7 +510,7 @@ footer {
           width: 100rem;
       }
       .bottom p {
-          visibility: collapse;
+          display: none;
       }
       footer {
           width: 100rem;
